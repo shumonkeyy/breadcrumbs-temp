@@ -8,7 +8,7 @@ import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCSxCLcDP7CPHt6cn2hOnPw2C5qlKiL6uM",
+  apiKey: "import.meta.env.VITE_FIREBASE_API_KEY",
   authDomain: "breadcrumbs-temp-admin.firebaseapp.com",
   projectId: "breadcrumbs-temp-admin",
   storageBucket: "breadcrumbs-temp-admin.firebasestorage.app",
