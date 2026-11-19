@@ -8,8 +8,6 @@ Due to safety reasons, the code of the original Breadcrumbs could not be publish
 
 **Live Demo:** [breadcrumbs-temp.vercel.app](https://breadcrumbs-temp.vercel.app)
 
-![Breadcrumbs App Screenshot](./public/screenshot.png)
-
 ## Tech Stack
 * **Javascript:** ReactJS, FramerMotion, FontAwesome, Bootstrap.js
 * **API:** Firebase Firecloud, Google Translate
