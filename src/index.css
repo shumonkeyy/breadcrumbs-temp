@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Silkscreen:wght@400;700&display=swap");
+
+body {
+  font-family: "Itim", cursive !important;
+  overflow-x: hidden !important;
+}
+h1 {
+  font-family: "Silkscreen", sans-serif !important;
+  color: #1a3263 !important;
+}
+h2 {
+  font-family: "Silkscreen", sans-serif !important;
+  color: #1a3263 !important;
+}
+.startPage {
+  text-align: center !important;
+  margin-top: 40vh;
+  margin-bottom: 30vh;
+}
+.selectSchool {
+  width: 100%;
+  text-align: center;
+  display: inline-block !important;
+  margin-bottom: 25px;
+}
+.select-school-box {
+  text-align: start;
+  width: 60%;
+}
+.continueButton {
+  font-family: "Silkscreen", sans-serif !important;
+  background-color: #efd2b0;
+  color: #1a3263;
+  border: solid 3px #547792;
+  padding: 0px 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+nav {
+  min-height: 75px;
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  overflow-x: hidden;
+  z-index: 5;
+}
+.navbar-brand {
+  color: #1a3263 !important;
+  font-family: "Silkscreen", sans-serif !important;
+}
+.navbar-nav {
+  font-family: "Silkscreen", sans-serif !important;
+}
+.navbar {
+  background-color: #547792 !important;
+}
+.westmoor-map {
+  width: 70%;
+  position: relative;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.image-container {
+  text-align: center;
+  position: relative;
+  background-color: #efd2b0;
+  padding: 5% 0%;
+  height: 100%;
+}
+.row {
+  margin-top: 75px !important;
+}
+.card {
+  height: 100% !important;
+}
+.hotspot-buttons {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  border: none;
+  font-size: 10px;
+  color: #d84040;
+  padding: 0 !important;
+  width: 14px;
+}
+.hotspot-buttons:hover {
+  background-color: #ffc570;
+}
+.desc {
+  overflow-y: auto;
+  height: 70vh;
+}
+.mapRow {
+  display: flex;
+  align-items: stretch;
+}
+.accordion-button {
+  font-family: "Itim", cursive !important;
+}
+.foot {
+  background-color: #ffc570;
+  padding: 10px;
+  text-align: center;
+  font-family: "Silkscreen", sans-serif !important;
+  color: #1a3263 !important;
+}
+.foot-start {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.hidden-google-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.custom-translator .button-group {
+  display: flex;
+  gap: 8px;
+}
+
+.custom-translator .lang-btn {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.custom-translator .lang-btn:hover {
+  background: #f8fafc;
+  border-color: #94a3b8;
+}
+
+iframe.goog-te-banner-frame,
+.goog-te-banner-frame,
+#goog-gt-tt {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+body {
+  top: 0px !important;
+}
+
+body > .skiptranslate,
+.skiptranslate,
+iframe.goog-te-banner-frame,
+iframe.skiptranslate,
+.goog-te-banner-frame {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  height: 0 !important;
+  width: 0 !important;
+  position: absolute !important;
+  pointer-events: none !important;
+}
+
+html,
+body {
+  top: 0px !important;
+  position: static !important;
+}
+
+#goog-gt-tt,
+.goog-te-balloon-frame,
+#goog-gt-tt .title {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.goog-text-highlight {
+  background: transparent !important;
+  box-shadow: none !important;
+  box-sizing: border-box !important;
+}
+
+.translate-dropdown-container {
+  position: relative;
+  display: inline-block;
+}
